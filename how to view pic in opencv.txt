@@ -1,0 +1,8 @@
+import cv2
+
+pic=cv2.imread(r"D:\img downloaded\money.jpg ")
+resize=cv2.resize(pic,(1000,700))
+cv2.imshow("photo",resize)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
